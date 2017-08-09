@@ -1,11 +1,25 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: Open Sans,Noto Sans,Noto Sans CJK JP,sans-serif;
 }
 
 .jumbotron{
-	background-image: url('/campsite.jpg');
+  padding: 20rem 10rem;
+  color: white;
+  font-size: 3.5rem;
+  font-weight: 300;
+	background-image: url('/image/campsite.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
+  background-position: right bottom;
+  height: 100vh;
+}
+
+.jumbotron h1{
+  text-shadow: 1px 1px #aaa;
+  margin-top: 100px;
+}
+.jumbotron p{
+  text-shadow: 1px 1px #aaa;
 }
